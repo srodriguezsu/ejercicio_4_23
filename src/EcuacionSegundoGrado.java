@@ -1,5 +1,5 @@
 public class EcuacionSegundoGrado {
-    double a, b, c, x1, x2;
+    private double a, b, c, x1, x2;
     public EcuacionSegundoGrado(double a, double b, double c){
         this.a = a;
         this.b = b;
@@ -35,4 +35,12 @@ public class EcuacionSegundoGrado {
     public double getX2(){
         return x2;
     }
+
+    public static void main(String[] args) {
+        EcuacionSegundoGrado ecuacion1 = new EcuacionSegundoGrado(5,3,3);
+        System.out.println(ecuacion1.x1);
+        System.out.println(ecuacion1.x2);
+    }
 }
+
+
