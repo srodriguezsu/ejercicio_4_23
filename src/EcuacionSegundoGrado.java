@@ -36,11 +36,7 @@ public class EcuacionSegundoGrado {
         return x2;
     }
 
-    public static void main(String[] args) {
-        EcuacionSegundoGrado ecuacion1 = new EcuacionSegundoGrado(5,3,3);
-        System.out.println(ecuacion1.x1);
-        System.out.println(ecuacion1.x2);
-    }
+
 }
 
 
